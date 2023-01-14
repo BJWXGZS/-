@@ -1,0 +1,11 @@
+import tkinter
+
+root=tkinter.TK()
+
+root.geometry('300*200+300+300')
+
+root.title('hello python')
+
+root.config(bg='#ffffff')
+
+Label(root,text='hello python',width=10).place(x=1,y=1)
